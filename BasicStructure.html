@@ -1,17 +1,18 @@
 <!--Basic HTML Structure with comments-->
 <!--Declare document type ie..HTML-->
 <!DOCTYPE html>
-<!--html opening tag | signifies an html document -->
-<html>              
+<!--html opening tag | signifies an html document and lang attribute sets language -->
+<html lang="en">              
 <!--head opening tag | signifies header information-->
 <head> 
     <!--title opening tag | signifies information you want to show within browser search (not content on webpage)-->
     <title> Web page about HTML structure </title>  
+    <meta charset="UTF-8">
 <!--head closing tag-->
 </head>
 <body>
     <!--header content size 2 | displays header/title content within the web page itself-->
-    <h1>This web page illustrates basic html structure and utilizes common HTML elements</h1>
+    <h1>This web page demonstrates basic html structure and utilizes common HTML elements</h1>
 <p>_____________________________</p>
 <p><h2>Structural Markup Elements:</h2></p>
 <h5>header size 5</h5>
@@ -23,6 +24,7 @@
 <p>Line <br> Break</p>
 <p>Horizontal Line</p>
 <hr />
+<p id="location-1">location-1</p>
 <p>_____________________________</p>
 <p><h2>Semantic Markup Elements:</h2></p>
 <p>strong:   <strong>Beware</strong> the barrenness of a busy life.</p>
@@ -94,20 +96,47 @@
 <p>_____________________________</p>
 <h2>Links:</h2>
 <p>Uniform Resource Locator (URL)</p>
-<p>absolute urls:
+<p>
+    absolute urls:
     <ul>
         <li><a href="https://www.ebay.com">ebay</a></li>
         <li><a href="https://www.amazon.com">amazon</a></li>
         <li><a href="https://www.walmart.com">walmart</a></li>
     </ul>
 </p>
-<p>relative url:
+<p>
+    relative url:
     <br>
     <br>
     <a href= "./helloWorld.html">helloWorld.html</a href>
 </p>
-
-
+<p>
+    email links:
+    <!--opens native email client on operating system to email corresponding address-->
+    <br>
+    <br>
+    <a href="mailto:kreicarcl@alumni.vcu.edu">email me</a>
+</p>
+<p>
+    open links in new window:
+    <br>
+    <br>
+    <a href="https://www.odu.edu" target="_blank">Old Dominion University Website</a>
+</p>
+<p>
+    link to specific part of current page:
+    <br>
+    <br>
+    <a href="#location-1">location-1</a>
+</p>
+<p>
+    link to specific part of another page (relative link):
+    <br>
+    <br>
+    <a href="./helloWorld.html#location-1">location-1</a>
+</p>
+<p>_____________________________</p>
+<h2>Images:</h2>
 </body>
     <!--html closing tag-->
     </html>
@@ -115,7 +144,7 @@
 ______________________________________________________________________________________________________________
 NOTES:
 
-Directory Strucutre naviation in HTML/heirachical order of rank for links
+Directory Strucutre naviation in HTML/hierachical order of rank for links
 
 current directory = <a href="reviews.html">Reviews</a>
 parent directory = <a href="folder/reviews.html">Reviews</a>
@@ -123,7 +152,7 @@ grandparent directory = <a href="folder/folder/reviews.html">Reviews</a>
 weird uncle directory = this isn't a thing
 root directory search (I believe) = <a href="./reviews.html">Reviews</a>
 
-Indent to show child and parent relationship within HTML 
+Indent to show parent/child relationship within HTML 
 
 <html>
     <head>
