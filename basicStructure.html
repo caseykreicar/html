@@ -149,11 +149,49 @@
 </p>
 <p>_____________________________</p>
 <h2>Images:</h2>
+<p>image:</p>
+<!--scalable vector image or .svg is resolution-independent (this is my favorite format for images because it won't look pixelated)-->
+<!--there is also an svg HTML element wich is used to define these image formats, <svg> defines the graphics in XML format-->
+<img src="./image.svg" alt="One cool emoji" title="Emoji"/>
+<p>image size:</p>
+<!--these are inline elements also, meaning that if other content is displayed on the same line it will be placed according to location from left to right, notice the <p> tag which is a block element so this content is on a new line-->
+<p>this is an emoji</p><img src="./image.svg" width="600" height="600"/><b>don't wear sunglasses indoors</b><img src="./image.svg" width="200" height="200"/><p></p><p>this is some paragraph text to show the spacial relationship of inline elements versus block elements</p>
+<p>figure:</p>
+<figure>
+    <img src="image.svg" width="100" height="100" alt="photo of an emoji"/>
+    <br>
+    <figcaption>Just an emoji with sunglasses.</figcaption>
+</figure>
+<p>_____________________________</p>
+<h2>Tables:</h2>
+<p>table:</p>
+<!--table tag | creates a table-->
+<table>
+    <!--table row tag | creates a row on one line-->
+    <tr>
+        <!--table data | inputs table data-->
+        <td>X</td>
+        <td>O</td>
+        <td>O</td>
 
+    </tr>
+    <tr>
+        <!--table data | inputs table data-->
+        <td>O</td>
+        <td>X</td>
+        <td>O</td>
 
+    </tr>
+    <tr>
+        <!--table data | inputs table data-->
+        <td>X</td>
+        <td>O</td>
+        <td>X</td>
 
-
-
+    </tr>
+</table>
+<p>table headings/columns:</p>
+<table></table>
 
 
 
@@ -207,5 +245,13 @@ HTML BREAKDOWN:
          |            |
  Attribute Name       |
                 Attribute Value
-______________________________________________________________________________________________________________
+
+                ______________________________________________________________________________________________________________
+ELEMENTS:
+
+block elements: (start a new line) <p>, <h1>, <ul>
+inline elements: (sit within block level) <b>, <em>, <img>
+
+
+                ______________________________________________________________________________________________________________
 -->
