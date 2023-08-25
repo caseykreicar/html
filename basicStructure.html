@@ -1,33 +1,44 @@
+<!--##################################-->
 <!--Basic HTML Structure with comments-->
+<!--##################################-->
 <!--Declare document type ie..HTML-->
 <!DOCTYPE html>
 <!--html opening tag | signifies an html document and lang attribute sets language -->
 <html lang="en">              
-<!--head opening tag | signifies header information-->
-<head> 
+<!--header opening tag | signifies header information-->
+<header> 
     <!--title opening tag | signifies information you want to show within browser search (not content on webpage)-->
     <title> Web page about HTML structure </title>  
+    <!--charaterset, this is by default set to UTF-8 currently with HTML5 even without adding this element-->
     <meta charset="UTF-8">
-<!--head closing tag-->
-</head>
+<!--header closing tag-->
+</header>
+<!--body opening tag | content being shown on page usually resides here-->
 <body>
     <!--header content size 2 | displays header/title content within the web page itself-->
     <h1>This web page demonstrates basic html structure and utilizes common HTML elements</h1>
+<!--paragraph markup tag-->
 <p>_____________________________</p>
 <p><h2>Structural Markup Elements:</h2></p>
 <h5>header size 5</h5>
 <h6>header size 6</h6>
 <p><b>Bold</b></p>
 <p><i>Italic</i></p>
+<!--superscript | commonly used in mathematics formulas-->
 <p>Superscript example:  E = mc<sup>2</sup><p>
+<!-- subscript | commonly used in chemistry formulas-->
 <p>Subscript example: H<sub>2</sub>O</p>
+<!--line break | places content on the line below-->
 <p>Line <br> Break</p>
 <p>Horizontal Line</p>
 <hr />
+<!--id attribute | specifies an indentifiable element on the current page or alternate ones-->
 <p id="location-1">location-1</p>
 <p>_____________________________</p>
 <p><h2>Semantic Markup Elements:</h2></p>
+<!--strong | used to highlight keywords/content in bold on the web page-->
 <p>strong:   <strong>Beware</strong> the barrenness of a busy life.</p>
+<!--emphasis | used to place emphasis on keywords/content in italics on the web page-->
 <p>emphasis:  If a <em>Fudpucker</em> could <em>puck fud</em>, how much <em>fud</em> could a <em>Fudpucker puck</em> if a <em>Fudpucker</em> could <em>puck fud</em> ?</p>
 <p>quote: <q cite="https://www.goodreads.com/">You can please some of the people some of the time, you can please all of the people some of the time, but you can't please all of the people all of the time</q>- John Lydgate</p>
 <p>abbreviation:  my first computer programming teacher = John A. Palesis,<abbr title="Doctor of Philosophy"> Ph.D</abbr></p>
@@ -37,6 +48,7 @@
     <br><a href="https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/010Alma_Online_Help_(English)/050Administration/030User_Management/060Managing_User_Roles">https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/010Alma_Online_H
         elp_(English)/050Administration/030User_Management/060Managing_User_Roles</a>
 </p>
+<!--address | used for email, will open native email client software and automatically insert the provided email address as the recipient-->
 <p>address:
      <address>
         <a href="mailto:kreicarcl@alumni.vcu.edu">email me here</a>
@@ -137,6 +149,15 @@
 </p>
 <p>_____________________________</p>
 <h2>Images:</h2>
+
+
+
+
+
+
+
+
+<!--body closing tag-->
 </body>
     <!--html closing tag-->
     </html>
@@ -155,9 +176,9 @@ root directory search (I believe) = <a href="./reviews.html">Reviews</a>
 Indent to show parent/child relationship within HTML 
 
 <html>
-    <head>
+    <header>
         <title> Title Here for web browser</title>
-    </head>
+    </header>
     <body>
         <h1> Header/Title for web page</h1>
         <p> Any information/content you wish to display on the web page goes here</p>
@@ -179,7 +200,7 @@ HTML BREAKDOWN:
 |                                                           |
         ______Attribute________
        |                       |
- _Tag_                           __Displayed Content_  _Tag_
+ _Tag_                           __Displayed_Content_  _Tag_
 |     |                         |                    ||     |
     <a href="http://latimere.io">Visit Casey's Website</a>
        |___| |_________________|
