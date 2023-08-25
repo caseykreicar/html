@@ -191,7 +191,103 @@
     </tr>
 </table>
 <p>table headings/columns:</p>
-<table></table>
+<table>
+<tr>
+    <th></th>
+    <th scope="col">Monday</th>
+    <th scope="col">Tuesday</th>
+    <th scope="col">Wednesday</th>
+    <th scope="col">Thursday</th>
+    <th scope="col">Friday</th>
+</tr>
+<tr>
+    <th scope="row">Hours of Operation</th>
+    <td>8AM-9PM</td>
+    <td>7AM-6PM</td>
+    <td>8AM-9PM</td>
+    <td>closed</td>
+    <td>9AM-1PM</td>
+</tr>
+</table>
+<p>spanning columns:</p>
+<table>
+    <tr>
+        <!--first table header is intentionally left empty to create an empty space-->
+        <th></th>
+        <th>10AM</th>
+        <th>11AM</th>
+        <th>12PM</th>
+        <th>1PM</th>
+    </tr>
+    <tr>
+        <th>Monday</th>
+        <td>Math Class</td>
+        <td colspan="2">[--Massage--Therapy--]</td>
+        <td>Art Class</td>
+    </tr>
+    <tr>
+        <th>Tuesday</th>
+        <td colspan="3">[------Kinesiology------Exam------]</td>
+        <td>Meeting</td>
+    </tr>
+    <tr>
+        <th>Wednesday</th>
+        <td></td>
+        <td>Lunch</td>
+        <td></td>
+        <td>Meeting</td>
+    </tr>
+</table>
+<p>spanning rows:</p>
+<table>
+    <tr>
+        <th></th>
+        <th>Jimmy</th>
+        <th>Johnny</th>
+        <th>James</th>
+        <th>Jordan</th>
+    </tr>
+    <tr>
+        <th>2PM - 3PM</th>
+        <td></td>
+        <td>[Sentury Duty]</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>3PM - 4PM</th>
+        <td rowspan="2">[Sentry Duty]</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>4PM - 5PM</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>5PM - 6PM</th>
+        <td></td>
+        <td></td>
+        <td>[Sentury Duty]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>6PM - 7PM</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>[Sentury Duty]</td>
+    </tr>
+</table>
+<p>long table:</p>
+
+
+
+
 
 
 
@@ -208,7 +304,7 @@ Directory Strucutre naviation in HTML/hierachical order of rank for links
 current directory = <a href="reviews.html">Reviews</a>
 parent directory = <a href="folder/reviews.html">Reviews</a>
 grandparent directory = <a href="folder/folder/reviews.html">Reviews</a>
-weird uncle directory = this isn't a thing
+that one weird uncle directory = this isn't a thing
 root directory search (I believe) = <a href="./reviews.html">Reviews</a>
 
 Indent to show parent/child relationship within HTML 
@@ -246,12 +342,12 @@ HTML BREAKDOWN:
  Attribute Name       |
                 Attribute Value
 
-                ______________________________________________________________________________________________________________
+______________________________________________________________________________________________________________
 ELEMENTS:
 
 block elements: (start a new line) <p>, <h1>, <ul>
 inline elements: (sit within block level) <b>, <em>, <img>
 
 
-                ______________________________________________________________________________________________________________
+______________________________________________________________________________________________________________
 -->
