@@ -187,9 +187,31 @@
         <td>X</td>
         <td>O</td>
         <td>X</td>
-
     </tr>
 </table>
+    <table>
+        <!--table row element tag | creates a row on one line-->
+        <tr>
+            <!--table data | inputs table data-->
+            <td>Red</td>
+            <td>Green</td>
+            <td>Blue</td>
+    
+        </tr>
+        <tr>
+            <!--table data element tag | inputs table data-->
+            <td>Blue</td>
+            <td>Blue</td>
+            <td>Green</td>
+    
+        </tr>
+        <tr>
+            <!--table data | inputs table data-->
+            <td>Red</td>
+            <td>Green</td>
+            <td>Red</td>
+    
+        </tr>
 <p>table headings/columns:</p>
 <table>
 <tr>
@@ -332,6 +354,34 @@
         </tr>
     </tfoot>
 </table>
+<p>_____________________________</p>
+<h2>Forms:</h2>
+<p>form structure:</p>
+<br>
+<form action="http://www.example.com/subscribe.php" method="get"></form>
+<p>this is where the form controls will appear</p>
+<br>
+<p>text input:</p>
+<br>
+<form action="http://www.example.com/login.php">
+    <p>Username:
+        <!--size is only used here for demonstration purposes, CSS should be used to control this-->
+        <input type="text" name="username" size="15" maxlength="30"/>
+    </p>
+</form>
+<br>
+<p>password input:</p>
+<br>
+<form action="http://www.example.com/login.php"> 
+    <p>Username:
+        <input type="text" name="username"/>
+    </p>
+    <p>Password:
+        <input type="text" password="password"/>
+    </p>
+</form>
+<br>
+<p>text area:</p>
 <!--body closing tag-->
 </body>
     <!--html closing tag-->
