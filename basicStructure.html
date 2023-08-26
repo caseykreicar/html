@@ -386,6 +386,24 @@
     <p>What do you think about this web page?</p>
     <textarea name="comments" cols="40" rows="6">Enter your comments... here</textarea>
 </form>
+<p>radio button:</p>
+<form action="http://www.example.com/profile.php">
+    <p>Please select your favorite flavor icecream:
+        <br>
+        <!--check attribute prefills/preselects the input element-->
+        <input type="radio" name="flavor" value="chocolate" checked="checked"/> chocolate
+        <input type="radio" name="flavor" value="vanilla" /> vanilla
+        <input type="radio" name="flavor" value="strawberry"/> strawberry
+    </p>
+</form>
+<p>checkbox:</p>
+<form action="http://www.example.com/profile.php">
+    <p>Please select your favorite library service:</p>
+    <input type="checkbox" name="service" value="3D printing"/> 3D printing
+    <input type="checkbox" name="service" value="Study room reservations"/> Study room reservations
+    <input type="checkbox" name="service" value="InterLibrary Loan"/> Interlibrary Loan (ILL)
+    <input type="checkbox" name="service" value="Reference librarian consultations"/> Reference librarian consultations
+</form>
 
 <!--body closing tag-->
 </body>
@@ -395,7 +413,7 @@
 ______________________________________________________________________________________________________________
 NOTES:
 
-Directory Strucutre naviation in HTML/hierachical order of rank for links
+Directory Structure naviation in HTML/hierachical order of rank for links
 
 current directory = <a href="reviews.html">Reviews</a>
 parent directory = <a href="folder/reviews.html">Reviews</a>
