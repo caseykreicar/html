@@ -121,12 +121,14 @@
     </ul>
 </p>
 <p>
+    <br>
     relative url:
     <br>
     <br>
     <a href= "./helloWorld.html">helloWorld.html</a href>
 </p>
 <p>
+    <br>
     email links:
     <!--opens native email client on operating system to email corresponding address-->
     <br>
@@ -134,18 +136,21 @@
     <a href="mailto:kreicarcl@alumni.vcu.edu">email me</a>
 </p>
 <p>
+    <br>
     open links in new window:
     <br>
     <br>
     <a href="https://www.odu.edu" target="_blank">Old Dominion University Website</a>
 </p>
 <p>
+    <br>
     link to specific part of current page:
     <br>
     <br>
     <a href="#location-1">location-1</a>
 </p>
 <p>
+    <br>
     link to specific part of another page (relative link):
     <br>
     <br>
@@ -240,6 +245,7 @@
     <td>9AM-1PM</td>
 </tr>
 </table>
+<br>
 <p>spanning columns:</p>
 <table>
     <tr>
@@ -269,6 +275,7 @@
         <td>Meeting</td>
     </tr>
 </table>
+<br>
 <p>spanning rows:</p>
 <table>
     <tr>
@@ -314,6 +321,7 @@
         <td>[Sentury Duty]</td>
     </tr>
 </table>
+<br>
 <p>long table:</p>
 <table>
     <thead>
@@ -406,6 +414,7 @@
         <input type="radio" name="flavor" value="strawberry"/> strawberry
     </p>
 </form>
+<br>
 <p>checkbox:</p>
 <form action="http://www.example.com/profile.php">
     <p>Please select your favorite library service:</p>
@@ -414,6 +423,7 @@
     <input type="checkbox" name="service" value="InterLibrary Loan"/> Interlibrary Loan (ILL)
     <input type="checkbox" name="service" value="Reference librarian consultations"/> Reference librarian consultations
 </form>
+<br>
 <p>drop down list box:</p>
 <form action="http://www.example.com/profile.php">
     <p>Which branch of the U.S. Military has the highest ASVAB score requirement for enlistment?</p>
@@ -427,6 +437,41 @@
         <option value="Coast Guard">Coast Guard</option>
     </select>
 </form>
+<br>
+<p>multiple select box:</p>
+<form action="http://www.example.com/profile.php">
+    <p>Please select the following operating systems you are proficient using:</p>
+        <select name="operating systems" size="3" multiple="multiple">
+        <option value="macOS">macOS</option>
+        <option value="Windows">Windows</option>
+        <option value="GNU/Linux">GNU/Linux</option>
+        <option value="FreeBSD">FreeBSD</option>
+        </select>
+</form>
+<br>
+<p>file input box:</p>
+<form action="http://www.example.com/upload.php" method="post">
+    <p>&#8595Upload an MP3 formatted file below&#8595</p>
+    <input type="file" name="user-song"/>
+    <br>
+    <input type="submit" value="Upload"/>
+</form>
+<br>
+<p>submit button:</p>
+<form action="http://www.example.org/subscribe.php">
+    <p>Subscribe to our email list:</p>
+    <input type="text" name="email"/>
+    <input type="submit" name="subscribe" value="Subscribe"/>
+</form>
+<br>
+<p>image button:</p>
+<form action="http://www.example.com/add.php">
+    <button>
+        <img src="./plus.gif" alt="add" width="30" height="30"/>
+    </button>
+</form>
+<p>&#8593 Click the button to add an image</p>
+
 
 
 
