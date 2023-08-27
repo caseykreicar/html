@@ -471,11 +471,54 @@
     </button>
 </form>
 <p>&#8593 Click the button to add an image</p>
-
-
-
-
 <br>
+<p>labelling form controls:</p>
+<br>
+<label>Age: <input type="text" name="age"/></label>
+ <br>
+ Gender:
+ <input id="female" type="radio" value="f">
+    <label for="female">Female</label> 
+ <input id="male" type="radio" value="m">
+    <label for="male">Male</label>
+ <input id="not disclosed" type="radio" value="nd">
+    <label for="not disclosed">not disclosed</label>
+ <br>
+ <br>
+<p>grouping form element:</p>
+<br>
+<fieldset>
+    <legend>Enter Your Contact Details Below:</legend>
+        <label>Email:<br>
+            <input type="text" name="email" /><br></label>
+        <label>Phone:<br>
+            <input type="text" name="phone" /><br></label>
+    <input type="submit" value="submit">
+</fieldset>
+<br>
+<p>form validation:</p>
+<form action="http://www.example.com/login/" method="post">
+    <label for="username">&#128315 Username:</label>
+    <br>
+    <input type="text" name="username" required="required">
+    <br>
+    <label for="password">&#128315 Password:</label>
+    <br>
+    <input type="text" name="password" required="required">
+    <br>
+    <input type="submit" value="submit">
+</form>
+
+
+
+
+
+
+
+
+<!-- 
+markup code runoff break
+-->
 <p><b>Table of Contents:</p></b>
 <a href="#topic-1">Structural Markup Elements</a>
 <br>
