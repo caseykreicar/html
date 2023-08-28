@@ -14,3 +14,20 @@
 .important.red {
     color:rgb(255,0,0);
 }
+
+#vcu {
+    text-align: center;
+    display: table;
+    margin: auto;
+    background-color: rgb(240,240,210);
+}
+.vcuList {
+    text-align: center;
+    display: table;
+    margin: auto;
+}
+
+.listItems {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
