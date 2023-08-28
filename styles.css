@@ -1,0 +1,8 @@
+#enhancedParagraph {
+    text-align: center;
+    color:rgb(255,0,0);
+    background-color:rgb(255,190,170);
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 80px;
+}
