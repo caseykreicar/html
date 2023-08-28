@@ -6,3 +6,11 @@
     font-weight: 700;
     border-radius: 80px;
 }
+
+.important {
+    text-transform: uppercase;
+}
+
+.important.red {
+    color:rgb(255,0,0);
+}

@@ -11,7 +11,7 @@
     <title> Web page about HTML structure </title>  
     <!--charaterset, this is by default set to UTF-8 currently with HTML5 even without adding this element-->
     <meta charset="UTF-8">
-    <!--css style sheet link-->
+    <!--css style sheet link, note the way this attribute value is formatted the .css file need to be located in the same directory-->
     <link rel="stylesheet" href="styles.css"/>
 <!--header closing tag-->
 </header>
@@ -552,12 +552,24 @@
 <br>
 <p>_____________________________</p>
 <p id="topic-8"></p>
+<!--Really important topics covered in this chapter-->
 <h2>Extra Markup:</h2>
 <p>id attribute:</p>
-<br>
 <p>normal paragraph element</p>
+<!--id attribute allows one unique element to be styled specifically in relation to the corresponding CSS document and it is represented as follows:
+#enhancedParagraph {text-align: center; color:rgb(255,0,0); background-color:rgb(255,190,170); font-size: 30px; font-weight: 700; border-radius: 80px;}-->
 <p id="enhancedParagraph">enhanced paragraph element example using CSS</p>
-
+<br>
+<p>class attribute:</p>
+<!--class attribute allows multiple/several elements to be styled specifically in relation to the corresponding CSS document and it is represented as follows:
+important {text-transform: uppercase;-->
+<p class="important">This is an example of a class attribute</p>
+<!--class attribute allows multiple/several elements to be styled specifically in relation to the corresponding CSS document and it is represented as follows:
+.important.red {color: rgb(255,0,0);} it should also be noted that this class inherited the uppercase styling from the .important class as well-->
+<p class="important red">This is another example of a class attribute with two classes, it inherits the class style from the "important" class that affects both this class and the class above to make all the text uppercase but additionally adds a red class to color the text in red</p>
+<br>
+<p>grouping text & elements in a block:</p>
+<br>
 
 
 
@@ -584,6 +596,9 @@ markup code runoff break
 <a href="#topic-7">Forms</a>
 <br>
 <a href="#topic-8">Extra Markup</a>
+<br>
+<br>
+<br>
 <!--body closing tag-->
 </body>
     <!--html closing tag-->
